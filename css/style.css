@@ -1,25 +1,27 @@
 body {
 	background-color: #efeee7;
-	font-family: "Georgia", "Times New Roman", "Times", "serif";
-	color: #333333;
 	margin: 0;
 	padding: 0;
-}
-
-header {
-	background-color: #333333;
+	font-family: "Georgia", "Times New Roman", Times, serif;
+	font-size: 18px;
+	line-height: 150%;
 }
 
 h1 {
-	color: #eee;
-	font-size: 28px;
+	color: #efeee7;
+	background-color: #333;
 	margin: 0;
-	padding: 12px;
 	text-align: center;
+	padding: 20px 0 20px 0;
+	font-size: 28px;
 }
 
 h2 {
 	font-size: 24px;
+}
+
+a {
+	color: #d21034;
 }
 
 .container {
@@ -28,8 +30,8 @@ h2 {
 }
 
 #main-bio,
-#contact-info,
-#bio-image {
+#bio-image,
+#contact-info {
 	float: left;
 }
 
@@ -37,16 +39,12 @@ h2 {
 	width: 70%;
 }
 
-#bio-image {
-	width: 200px;
-	margin-right: 20px;
-}
-
-#content-info {
+#contact-info {
 	width: 30%;
-	line-height: 1.5;
 }
 
-a {
-	color: #d21034;
+#bio-image {
+	margin-right: 20px;
+	width: 200px;
+	height: 200px;
 }
